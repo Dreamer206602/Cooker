@@ -8,9 +8,9 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.example.administrator.cookman.ui.component.fab_transformation.animation.RevealAnimator;
-import com.example.administrator.cookman.ui.component.fab_transformation.animation.SupportAnimator;
-import com.example.administrator.cookman.ui.component.fab_transformation.animation.ViewAnimationUtils;
+import com.booboomx.cooker.component.fab_transformation.animation.RevealAnimator;
+import com.booboomx.cooker.component.fab_transformation.animation.SupportAnimator;
+import com.booboomx.cooker.component.fab_transformation.animation.ViewAnimationUtils;
 
 
 public class RevealLinearLayout extends LinearLayout implements RevealAnimator {

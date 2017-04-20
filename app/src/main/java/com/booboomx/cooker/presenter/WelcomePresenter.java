@@ -48,6 +48,7 @@ public class WelcomePresenter extends Presenter {
         @Override
         public void onCompleted() {
 
+
         }
 
         @Override
@@ -83,7 +84,6 @@ public class WelcomePresenter extends Presenter {
                 mWelcomeView.onWelcomeInitData();
             }
 
-            this.onCompleted();
         }
     }
 

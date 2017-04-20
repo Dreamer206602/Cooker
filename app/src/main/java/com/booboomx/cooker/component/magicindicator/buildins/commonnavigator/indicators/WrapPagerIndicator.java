@@ -8,10 +8,9 @@ import android.view.View;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 
-
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.UIUtil;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.model.PositionData;
+import com.booboomx.cooker.component.magicindicator.buildins.UIUtil;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.model.PositionData;
 
 import java.util.List;
 

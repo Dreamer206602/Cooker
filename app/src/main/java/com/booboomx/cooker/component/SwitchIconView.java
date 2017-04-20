@@ -22,7 +22,8 @@ import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.view.animation.DecelerateInterpolator;
 
-import com.example.administrator.cookman.R;
+import com.booboomx.cooker.R;
+
 
 /**
  * Created by Administrator on 2017/2/25.

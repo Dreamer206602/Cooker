@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
 
 
 /**

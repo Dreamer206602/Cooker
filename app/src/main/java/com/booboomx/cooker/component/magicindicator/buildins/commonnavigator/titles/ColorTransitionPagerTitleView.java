@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.ArgbEvaluatorHolder;
+import com.booboomx.cooker.component.magicindicator.buildins.ArgbEvaluatorHolder;
 
 
 /**

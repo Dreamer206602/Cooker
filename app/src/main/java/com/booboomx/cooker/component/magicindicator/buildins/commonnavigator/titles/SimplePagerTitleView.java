@@ -7,8 +7,8 @@ import android.text.TextUtils;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.UIUtil;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
+import com.booboomx.cooker.component.magicindicator.buildins.UIUtil;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
 
 
 /**

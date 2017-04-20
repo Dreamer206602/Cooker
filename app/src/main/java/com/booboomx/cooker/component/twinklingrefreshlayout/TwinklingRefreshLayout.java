@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
-import com.example.administrator.cookman.R;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.Footer.BottomProgressView;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.header.GoogleDotView;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.utils.DensityUtil;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.utils.ScrollingUtil;
+import com.booboomx.cooker.R;
+import com.booboomx.cooker.component.twinklingrefreshlayout.Footer.BottomProgressView;
+import com.booboomx.cooker.component.twinklingrefreshlayout.header.GoogleDotView;
+import com.booboomx.cooker.component.twinklingrefreshlayout.utils.DensityUtil;
+import com.booboomx.cooker.component.twinklingrefreshlayout.utils.ScrollingUtil;
 
 
 /**

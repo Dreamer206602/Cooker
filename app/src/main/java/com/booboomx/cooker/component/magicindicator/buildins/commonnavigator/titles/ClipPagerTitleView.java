@@ -6,8 +6,8 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.view.View;
 
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.UIUtil;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
+import com.booboomx.cooker.component.magicindicator.buildins.UIUtil;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
 
 
 /**

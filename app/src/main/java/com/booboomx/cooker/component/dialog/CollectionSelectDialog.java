@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.administrator.cookman.R;
+import com.booboomx.cooker.R;
+
 
 /**
  * Created by Administrator on 2017/2/27.

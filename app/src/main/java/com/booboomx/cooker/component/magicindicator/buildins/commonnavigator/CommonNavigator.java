@@ -9,15 +9,15 @@ import android.widget.FrameLayout;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 
-import com.example.administrator.cookman.R;
-import com.example.administrator.cookman.ui.component.magicindicator.NavigatorHelper;
-import com.example.administrator.cookman.ui.component.magicindicator.ScrollState;
-import com.example.administrator.cookman.ui.component.magicindicator.abs.IPagerNavigator;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.abs.CommonNavigatorAdapter;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.model.PositionData;
+import com.booboomx.cooker.R;
+import com.booboomx.cooker.component.magicindicator.NavigatorHelper;
+import com.booboomx.cooker.component.magicindicator.ScrollState;
+import com.booboomx.cooker.component.magicindicator.abs.IPagerNavigator;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.abs.CommonNavigatorAdapter;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.model.PositionData;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -7,9 +7,8 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.view.View;
 
-
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
-import com.example.administrator.cookman.ui.component.magicindicator.buildins.commonnavigator.model.PositionData;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
+import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.model.PositionData;
 
 import java.util.List;
 

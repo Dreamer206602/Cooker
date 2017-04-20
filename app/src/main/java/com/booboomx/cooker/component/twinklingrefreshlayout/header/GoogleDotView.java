@@ -9,10 +9,10 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-import com.example.administrator.cookman.R;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.IHeaderView;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.OnAnimEndListener;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.utils.DensityUtil;
+import com.booboomx.cooker.R;
+import com.booboomx.cooker.component.twinklingrefreshlayout.IHeaderView;
+import com.booboomx.cooker.component.twinklingrefreshlayout.OnAnimEndListener;
+import com.booboomx.cooker.component.twinklingrefreshlayout.utils.DensityUtil;
 
 
 /**

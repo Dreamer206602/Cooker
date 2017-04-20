@@ -10,9 +10,9 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.administrator.cookman.R;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.IHeaderView;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.OnAnimEndListener;
+import com.booboomx.cooker.R;
+import com.booboomx.cooker.component.twinklingrefreshlayout.IHeaderView;
+import com.booboomx.cooker.component.twinklingrefreshlayout.OnAnimEndListener;
 
 
 /**

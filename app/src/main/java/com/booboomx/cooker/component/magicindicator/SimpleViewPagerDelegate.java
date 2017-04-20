@@ -2,7 +2,8 @@ package com.booboomx.cooker.component.magicindicator;
 
 import android.support.v4.view.ViewPager;
 
-import com.example.administrator.cookman.ui.component.magicindicator.abs.AbsDelegate;
+import com.booboomx.cooker.component.magicindicator.abs.AbsDelegate;
+
 
 /**
  * ViewPager委托类，使得MagicIndicator和ViewPager集成更方便

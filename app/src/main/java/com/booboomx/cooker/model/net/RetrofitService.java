@@ -18,9 +18,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitService {
 
     public static final String TAG=RetrofitService.class.getSimpleName();
-
-
-
     private static  RetrofitService Instance=null;
 
     public static RetrofitService getInstance(){

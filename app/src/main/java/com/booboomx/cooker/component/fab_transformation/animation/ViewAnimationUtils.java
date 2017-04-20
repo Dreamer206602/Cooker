@@ -16,7 +16,7 @@ import java.lang.ref.WeakReference;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.LOLLIPOP;
-import static com.example.administrator.cookman.ui.component.fab_transformation.animation.RevealAnimator.CLIP_RADIUS;
+import static com.booboomx.cooker.component.fab_transformation.animation.RevealAnimator.CLIP_RADIUS;
 
 public class ViewAnimationUtils {
 

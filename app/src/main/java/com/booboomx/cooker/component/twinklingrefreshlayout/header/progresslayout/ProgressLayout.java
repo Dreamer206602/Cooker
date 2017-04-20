@@ -14,8 +14,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.IHeaderView;
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.OnAnimEndListener;
+import com.booboomx.cooker.component.twinklingrefreshlayout.IHeaderView;
+import com.booboomx.cooker.component.twinklingrefreshlayout.OnAnimEndListener;
 
 
 /**

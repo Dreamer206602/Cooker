@@ -2,7 +2,7 @@ package com.booboomx.cooker.component.twinklingrefreshlayout;
 
 import android.view.MotionEvent;
 
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.utils.ScrollingUtil;
+import com.booboomx.cooker.component.twinklingrefreshlayout.utils.ScrollingUtil;
 
 
 /**

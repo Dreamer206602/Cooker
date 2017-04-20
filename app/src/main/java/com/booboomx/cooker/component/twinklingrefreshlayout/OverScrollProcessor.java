@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.AbsListView;
 
-import com.example.administrator.cookman.ui.component.twinklingrefreshlayout.utils.ScrollingUtil;
+import com.booboomx.cooker.component.twinklingrefreshlayout.utils.ScrollingUtil;
 
 
 /**
