@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <com.booboomx.cooker.component.twinklingrefreshlayout.dataView.DataKnifeView
+        android:id="@+id/view_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.booboomx.cooker.component.twinklingrefreshlayout.TwinklingRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"/>
+
+
+    </com.booboomx.cooker.component.twinklingrefreshlayout.TwinklingRefreshLayout>
+</RelativeLayout>

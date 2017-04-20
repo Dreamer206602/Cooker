@@ -1,7 +1,9 @@
-package com.booboomx.cooker;
+package com.booboomx.cooker.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.booboomx.cooker.R;
 
 public class MainActivity extends AppCompatActivity {
 
