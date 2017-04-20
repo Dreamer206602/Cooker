@@ -1,7 +1,7 @@
 package com.booboomx.cooker.component.tagComponent;
 
 
-import com.booboomx.cooker.bean.TB_CustomCategory;
+import com.booboomx.cooker.model.bean.TB_CustomCategory;
 
 import java.io.Serializable;
 

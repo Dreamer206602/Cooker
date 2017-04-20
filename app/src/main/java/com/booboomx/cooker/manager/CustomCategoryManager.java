@@ -1,12 +1,12 @@
-package com.booboomx.cooker.component;
+package com.booboomx.cooker.manager;
 
 import android.content.res.AssetManager;
 
 import com.booboomx.cooker.app.BaseApplication;
-import com.booboomx.cooker.bean.CategoryChildInfo1;
-import com.booboomx.cooker.bean.CategoryChildInfo2;
-import com.booboomx.cooker.bean.CategoryInfo;
-import com.booboomx.cooker.bean.TB_CustomCategory;
+import com.booboomx.cooker.model.bean.CategoryChildInfo1;
+import com.booboomx.cooker.model.bean.CategoryChildInfo2;
+import com.booboomx.cooker.model.bean.CategoryInfo;
+import com.booboomx.cooker.model.bean.TB_CustomCategory;
 import com.booboomx.cooker.component.tagComponent.ChannelItem;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

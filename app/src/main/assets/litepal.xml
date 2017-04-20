@@ -4,8 +4,8 @@
     <version value="1"/>
 
     <list>
-        <mapping class="com.booboomx.cooker.bean.TB_CustomCategory"/>
-        <mapping class="com.booboomx.cooker.bean.TB_CookDetail"/>
+        <mapping class="com.booboomx.cooker.model.bean.TB_CustomCategory"/>
+        <mapping class="com.booboomx.cooker.model.bean.TB_CookDetail"/>
     </list>
 
 </litepal>

@@ -2,8 +2,8 @@ package com.booboomx.cooker.component.tagComponent;
 
 import android.database.SQLException;
 
-import com.booboomx.cooker.bean.TB_CustomCategory;
-import com.booboomx.cooker.component.CustomCategoryManager;
+import com.booboomx.cooker.model.bean.TB_CustomCategory;
+import com.booboomx.cooker.manager.CustomCategoryManager;
 
 import java.util.ArrayList;
 import java.util.List;

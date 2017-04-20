@@ -1,4 +1,4 @@
-package com.booboomx.cooker.bean;
+package com.booboomx.cooker.model.bean;
 
 /**
  * Created by booboomx on 17/4/20.

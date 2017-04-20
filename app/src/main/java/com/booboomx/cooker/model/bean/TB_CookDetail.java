@@ -1,4 +1,4 @@
-package com.booboomx.cooker.bean;
+package com.booboomx.cooker.model.bean;
 
 import org.litepal.crud.DataSupport;
 
