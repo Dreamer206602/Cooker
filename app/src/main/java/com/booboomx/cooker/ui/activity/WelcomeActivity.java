@@ -7,7 +7,6 @@ import android.os.Build;
 import android.os.Bundle;
 
 import com.booboomx.cooker.IView.IWelcomeView;
-import com.booboomx.cooker.R;
 import com.booboomx.cooker.presenter.WelcomePresenter;
 
 public class WelcomeActivity extends Activity implements IWelcomeView{
@@ -16,27 +15,8 @@ public class WelcomeActivity extends Activity implements IWelcomeView{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
         mPresenter=new WelcomePresenter(this,this);
         mPresenter.initData();
-
-
-//        Observable.timer(500, TimeUnit.MILLISECONDS)
-//                .subscribeOn(Schedulers.io())
-//                .observeOn(AndroidSchedulers.mainThread())
-//                .subscribe(new Action1<Long>() {
-//                    @Override
-//                    public void call(Long aLong) {
-//
-//                        startMainActivity();
-//                    }
-//                }, new Action1<Throwable>() {
-//                    @Override
-//                    public void call(Throwable throwable) {
-//
-//                    }
-//                });
-
     }
 
     @Override
@@ -49,7 +29,6 @@ public class WelcomeActivity extends Activity implements IWelcomeView{
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @SuppressWarnings("deprecation")
     private void startMainActivity(){
-
         Intent intent=new Intent();
         intent.setClass(this,MainActivity.class);
         startActivity(intent);

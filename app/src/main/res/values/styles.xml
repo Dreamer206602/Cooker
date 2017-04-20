@@ -18,15 +18,14 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <!--parent="@android:style/Theme.NoTitleBar.Fullscreen"-->
-    <style name="SplashTheme" parent="AppTheme">
-        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
-        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
-        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <style name="SplashTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowIsTranslucent">false</item>
-        <!--<item name="android:windowContentOverlay">@null</item>-->
-        <!--<item name="android:windowFullscreen">true</item>-->
-        <!--<item name="android:windowNoTitle">true</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@drawable/splash</item>
     </style>
 
