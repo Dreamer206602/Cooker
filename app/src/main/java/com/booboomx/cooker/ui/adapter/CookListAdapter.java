@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.booboomx.cooker.R;
 import com.booboomx.cooker.model.bean.CookDetail;
+import com.booboomx.cooker.ui.activity.CookDetailActivity;
 import com.booboomx.cooker.ui.adapter.base.BaseRecyclerAdapter;
 import com.booboomx.cooker.ui.adapter.base.CommonHolder;
 import com.booboomx.cooker.utils.GlideUtil;
@@ -47,7 +48,7 @@ public class CookListAdapter extends BaseRecyclerAdapter<CookDetail>{
         }
 
         @Override
-        public void bindData(CookDetail cook) {
+        public void bindData(final CookDetail cook) {
 
             if(cook.getThumbnail()!=null)
                 mGlideUtil.attach(imagCook).injectImageWithNull(cook.getThumbnail());
@@ -58,6 +59,8 @@ public class CookListAdapter extends BaseRecyclerAdapter<CookDetail>{
             mCardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    CookDetailActivity.startAvtivity(mActivity,imagCook,cook,true);
+
 
                 }
             });

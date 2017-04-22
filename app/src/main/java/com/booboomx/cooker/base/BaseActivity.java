@@ -1,7 +1,6 @@
 package com.booboomx.cooker.base;
 
 import android.content.Context;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 import com.booboomx.cooker.component.swipebacklayout.app.SwipeBackActivity;
@@ -24,7 +23,7 @@ public abstract  class BaseActivity extends SwipeBackActivity implements SwipeBa
         super.onCreate(savedInstanceState);
 
         //禁止横屏
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+//        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(getLayoutId());
         mContext=this;
         ButterKnife.bind(this);
