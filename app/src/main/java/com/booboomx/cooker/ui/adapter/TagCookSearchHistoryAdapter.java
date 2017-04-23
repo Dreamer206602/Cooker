@@ -70,7 +70,7 @@ public class TagCookSearchHistoryAdapter extends BaseAdapter {
         }else{
             holder= (ViewHolder) convertView.getTag();
         }
-        holder.mButton.setTag(getItem(position));
+        holder.mButton.setText(getItem(position).getName());
         return convertView;
     }
 

@@ -241,7 +241,6 @@ public class SearchFragment extends Fragment implements View.OnClickListener, IC
 
         if (TextUtils.isEmpty(searchKey))
             return;
-
         KeyboardUtil.showKeyboard(getActivity(), editSearch, false);
         CookSearchHistoryManager.getInstance().add2Buffer(new CookSearchHistory(searchKey));
         mPresenter.search(searchKey);
