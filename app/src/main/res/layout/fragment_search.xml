@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/root"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:elevation="5dp"
+              android:orientation="vertical">
+
+    <com.booboomx.cooker.component.fab_transformation.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:clickable="true">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.booboomx.cooker.component.fab_transformation.widget.RevealLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/edit_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:id="@+id/edit_search"
+                        android:layout_width="0dp"
+                        android:layout_height="46dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_weight="1"
+                        android:hint="@string/search"
+                        android:imeOptions="actionSearch"
+                        android:inputType="text"
+                        android:textColor="#333333"
+                        android:textColorHint="#cccccc"
+                        android:textSize="16sp">
+
+                        <requestFocus/>
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/img_search"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:clickable="true"
+                        android:padding="8dp"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/icon_search_orange"/>
+
+                </LinearLayout>
+
+            </com.booboomx.cooker.component.fab_transformation.widget.RevealLinearLayout>
+
+            <LinearLayout
+                android:id="@+id/items"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/history_search_record"
+                    android:textSize="14sp"/>
+
+                <com.booboomx.cooker.component.tagCloudLayout.TagCloudLayout
+                    android:id="@+id/tag_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:lineSpacing="10dp"
+                    app:tagSpacing="15dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.booboomx.cooker.component.fab_transformation.widget.RevealFrameLayout>
+</LinearLayout>

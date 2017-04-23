@@ -8,6 +8,7 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.booboomx.cooker.R;
 import com.booboomx.cooker.base.BaseFragment;
@@ -26,6 +27,7 @@ import com.booboomx.cooker.ui.adapter.MainPageViewPageAdapter;
 import java.util.List;
 
 import butterknife.Bind;
+import butterknife.OnClick;
 
 /**
  *
@@ -39,11 +41,10 @@ public class MainFragment extends BaseFragment implements ViewPager.OnPageChange
     @Bind(R.id.view_pager)
     public ViewPager viewPager;
 
-
+    @Bind(R.id.imgv_search)
+    ImageView IvSearch;
     private CommonNavigator mCommonNavigator;
     private MainPageViewPageAdapter mPageAdapter;
-
-
 
     @Override
     protected Presenter getPresenter() {
@@ -59,7 +60,6 @@ public class MainFragment extends BaseFragment implements ViewPager.OnPageChange
     private void initIndicatorView() {
 
         mCustomCategories= CustomCategoryManager.getInstance().getDatas();
-
         mCommonNavigator=new CommonNavigator(getContext());
         mCommonNavigator.setScrollPivotX(0.35f);
         mCommonNavigator.setAdapter(new CommonNavigatorAdapter() {
@@ -113,6 +113,8 @@ public class MainFragment extends BaseFragment implements ViewPager.OnPageChange
 
     }
 
+
+
     @Override
     public void onPageSelected(int position) {
 
@@ -126,7 +128,34 @@ public class MainFragment extends BaseFragment implements ViewPager.OnPageChange
 
     }
 
+
+    @OnClick(R.id.imgv_search)
+    public void onClickImgvSearch(){
+
+        getFragmentManager()
+                .beginTransaction()
+                .add(android.R.id.content,new SearchFragment(),"fragment_search")
+                .addToBackStack("fragment:reveal")
+                .commit();
+    }
+
+
+    public boolean onBackPressed(){
+
+        SearchFragment fragment= (SearchFragment) getFragmentManager().findFragmentByTag("fragment_search");
+        if (fragment != null) {
+            return fragment.onBackPressed();
+        }
+
+        return false;
+    }
+
+
+
+
     public void  updateChannel(){
         initIndicatorView();
     }
+
+
 }

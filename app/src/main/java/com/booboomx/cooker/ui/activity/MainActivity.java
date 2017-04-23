@@ -3,8 +3,6 @@ package com.booboomx.cooker.ui.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 
 import com.booboomx.cooker.R;
 import com.booboomx.cooker.base.BaseActivity;
@@ -14,10 +12,7 @@ import com.booboomx.cooker.utils.ToastUtils;
 
 public class MainActivity extends BaseActivity {
 
-    private FragmentManager mFragmentManager;
     private MainFragment mMainFragment;
-
-
     @Override
     public Presenter getPresenter() {
         return null;
@@ -28,12 +23,11 @@ public class MainActivity extends BaseActivity {
         //禁止使用侧滑
         setSwipeBackEnable(false);
 
-        mFragmentManager=getSupportFragmentManager();
-        FragmentTransaction transaction = mFragmentManager.beginTransaction();
-
         mMainFragment=new MainFragment();
 
-        transaction.add(R.id.fragment_main_content,mMainFragment)
+        getSupportFragmentManager()
+                .beginTransaction()
+                .add(R.id.fragment_main_content,mMainFragment)
                 .show(mMainFragment)
                 .commit();
 
@@ -45,7 +39,9 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
-//        if(mMainFragment.)
+        if(mMainFragment.onBackPressed()){
+            return;
+        }
 
 
         if(doubleBackToExitPressedOnce){

@@ -38,9 +38,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.CookDetailActivity"
-            android:theme="@style/AppThemeFullImage"
-            >
+        <activity
+            android:name=".ui.activity.CookDetailActivity"
+            android:theme="@style/AppThemeFullImage">
+        </activity>
+        <activity android:name=".ui.activity.CookSearchResultActivity"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 
