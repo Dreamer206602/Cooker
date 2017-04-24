@@ -72,10 +72,11 @@ public class MainActivity extends BaseActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-//        if(requestCode == CookChannelActivity.Request_Code_Channel && resultCode == CookChannelActivity.Result_Code_Channel_NoChanged){
-//            if(mMainFragment != null)
-//                mMainFragment.updateChannel();
-//        }
+        if(requestCode == CookChannelActivity.Request_Code_Channel &&
+                resultCode == CookChannelActivity.Result_Code_Channel_NoChanged){
+            if(mMainFragment != null)
+                mMainFragment.updateChannel();
+        }
 //
     }
 }

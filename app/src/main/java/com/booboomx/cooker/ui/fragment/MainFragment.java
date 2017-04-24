@@ -22,6 +22,7 @@ import com.booboomx.cooker.component.magicindicator.buildins.commonnavigator.tit
 import com.booboomx.cooker.manager.CustomCategoryManager;
 import com.booboomx.cooker.model.bean.TB_CustomCategory;
 import com.booboomx.cooker.presenter.Presenter;
+import com.booboomx.cooker.ui.activity.CookChannelActivity;
 import com.booboomx.cooker.ui.adapter.MainPageViewPageAdapter;
 
 import java.util.List;
@@ -139,6 +140,13 @@ public class MainFragment extends BaseFragment implements ViewPager.OnPageChange
                 .commit();
     }
 
+    @OnClick(R.id.imgv_add)
+    public void onClickChannelManager(){
+
+        CookChannelActivity.startActivity(getActivity());
+
+    }
+
 
     public boolean onBackPressed(){
 
@@ -149,8 +157,6 @@ public class MainFragment extends BaseFragment implements ViewPager.OnPageChange
 
         return false;
     }
-
-
 
 
     public void  updateChannel(){
