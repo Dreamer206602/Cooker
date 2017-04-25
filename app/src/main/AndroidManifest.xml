@@ -46,9 +46,13 @@
             android:name=".ui.activity.CookSearchResultActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".ui.activity.CookChannelActivity"
+        <activity
+            android:name=".ui.activity.CookChannelActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ui.activity.CookCategoryActivity"
             android:theme="@style/AppTheme.NoActionBar"
-            />
+            >
+        </activity>
     </application>
 
 </manifest>

@@ -23,6 +23,7 @@ import com.booboomx.cooker.model.bean.CookDetail;
 import com.booboomx.cooker.model.bean.TB_CustomCategory;
 import com.booboomx.cooker.presenter.CookListPresenter;
 import com.booboomx.cooker.presenter.Presenter;
+import com.booboomx.cooker.ui.activity.CookCategoryActivity;
 import com.booboomx.cooker.ui.adapter.CookListAdapter;
 import com.booboomx.cooker.utils.ToastUtils;
 
@@ -119,6 +120,28 @@ public class CookListFragment extends BaseFragment implements PeRefreshLayoutLis
         });
 
     }
+
+
+    @OnClick(R.id.relative_category)
+    public void onClickCategory(){
+        CookCategoryActivity.startActivity(getActivity());
+
+
+    }
+
+
+    @OnClick(R.id.relative_collection)
+    public void onClickCollection(){
+
+    }
+
+    @OnClick(R.id.relative_about)
+    public void onClickAbout(){
+
+    }
+
+
+
 
 
     @OnClick(R.id.fab_app)
