@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.booboomx.cooker.R;
 import com.booboomx.cooker.component.SwitchIconView;
+import com.booboomx.cooker.manager.CookCollectionManager;
 import com.booboomx.cooker.model.bean.CookDetail;
 import com.booboomx.cooker.model.bean.CookRecipeMethod;
 import com.booboomx.cooker.utils.GlideUtil;
@@ -182,12 +183,12 @@ public class CookDetailAdapter extends RecyclerView.Adapter<CookDetailAdapter.It
                     @Override
                     public void onClick(View v) {
                         if(holderView.switchIconView.isIconEnabled()){
-//                            CookCollectionManager.getInstance().delete(srcData);
+                            CookCollectionManager.getInstance().delete(srcData);
                         }
                         else{
 //                            MobclickAgent.onEvent(mContext, Constants.Umeng_Event_Id_Collection_Add);
 
-//                            CookCollectionManager.getInstance().add(srcData);
+                            CookCollectionManager.getInstance().add(srcData);
                         }
                         holderView.switchIconView.switchState();
                     }

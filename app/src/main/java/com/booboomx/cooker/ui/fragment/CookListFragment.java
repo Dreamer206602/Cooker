@@ -25,6 +25,7 @@ import com.booboomx.cooker.presenter.CookListPresenter;
 import com.booboomx.cooker.presenter.Presenter;
 import com.booboomx.cooker.ui.activity.AboutActivity;
 import com.booboomx.cooker.ui.activity.CookCategoryActivity;
+import com.booboomx.cooker.ui.activity.CookCollectionListActivity;
 import com.booboomx.cooker.ui.adapter.CookListAdapter;
 import com.booboomx.cooker.utils.ToastUtils;
 
@@ -135,6 +136,7 @@ public class CookListFragment extends BaseFragment implements PeRefreshLayoutLis
     @OnClick(R.id.relative_collection)
     public void onClickCollection(){
 
+        CookCollectionListActivity.startActivity(getActivity());
         onClickOverlay();
 
 
