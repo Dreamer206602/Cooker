@@ -49,8 +49,17 @@
         <activity
             android:name=".ui.activity.CookChannelActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".ui.activity.CookCategoryActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+        <activity
+            android:name=".ui.activity.CookCategoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".ui.activity.CookListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ui.activity.AboutActivity"
+
+            android:theme="@style/AppThemeFullImage"
             >
         </activity>
     </application>

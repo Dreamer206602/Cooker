@@ -104,6 +104,8 @@ public class CookCategoryActivity extends BaseActivity implements CookCategoryFi
     @Override
     public void onCookCategorySndClick(String ctgId, String name) {
 
+        CookListActivity.startActivity(this,ctgId,name);
+
 
     }
 }
