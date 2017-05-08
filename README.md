@@ -5,7 +5,7 @@
 ![CookMan](/screenshot/cookMan.gif)
 
 # APK下载地址
-[下载](https://fir.im/59cg)
+[下载](https://fir.im/zf2q)
 <br />
 # screenshot
 <img src="/screenshot/1.png" width = "225" height = "400" alt="主页"/>
